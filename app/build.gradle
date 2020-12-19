@@ -1,0 +1,25 @@
+plugins {
+    id 'com.android.application'
+}
+
+//引用dependencies中的配置
+apply from: '../dependencies.gradle'
+
+
+android {
+
+    defaultConfig {
+        applicationId "com.mall.app"
+        minSdkVersion 22
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+}
+
+dependencies {
+
+}

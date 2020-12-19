@@ -1,0 +1,7 @@
+include ':category'
+include ':find'
+include ':my'
+include ':cart'
+include ':home'
+include ':app'
+rootProject.name = "Go-zero-mall-android"
